@@ -14,5 +14,8 @@ while d == False:
         if b == 0:
             print("Perdiste, el numero correcto era ",a)
             break
-        print("Incorrecto, te quedan ", b, " intentos")
+        if c < a:
+            print("Es mayor,te quedan ", b, " intentos")
+        else:
+            print("Es menor,te quedan ", b, " intentos")
 
